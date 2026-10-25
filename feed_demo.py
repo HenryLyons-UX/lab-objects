@@ -28,7 +28,7 @@ def main():
     # Call build_feed and display the returned objects and hashtags.
     users, posts = build_feed()
     for user in users:
-        print(users)
+        print(user)
         
     for post in posts:
         print(post)
